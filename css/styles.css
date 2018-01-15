@@ -175,6 +175,7 @@ animation: 5s slidefade 1s forwards;
 }
 .contact form{
     display:flex;
+    
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -183,7 +184,7 @@ animation: 5s slidefade 1s forwards;
 .contact form .btn{
     padding: 18px 42px;
 }
-.contact form input{
+.contact form div input{
     padding: 15px;
     margin-right: 30px;
     font-size:110%;
