@@ -22,7 +22,6 @@ a{
 a.btn, .btn{
     text-size:85%;
     color:white;
-    opacity: .7;
     padding: 18px 42px;
     border-radius:4px;
     text-transform: uppercase;
@@ -213,7 +212,12 @@ footer p{
     }
 }
 @media (max-width:800px){
-   section {
+   .btn{
+    text-size:65%;
+    padding: 9px 21px;
+    font-weight: 500;
+   }
+    section {
        padding: 50px 20px;
    }
    header{
