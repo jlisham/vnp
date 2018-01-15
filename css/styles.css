@@ -6,6 +6,9 @@
 html{
     font: normal 16px sans-serif;
     color:rgb(27, 27, 27);
+}.anchor{
+    padding-top: 50px;
+    margin-top: -50px;
 }
 ul{list-style: none;}
 nav{
@@ -25,7 +28,7 @@ a.btn, .btn{
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-    background: #3f51b5;
+    background: #0E5DA0;
     opacity: .75;
 }
 a:hover, a.btn:hover, .btn:hover{
@@ -51,7 +54,7 @@ margin-bottom: 50px;
 }
 section h2.title{
     font: bold 200% "Open Sans", sans-serif;
-    margin-bottom: 30px;
+    margin-top: 30px;
     text-align: center;
 }
 section p{
@@ -112,8 +115,8 @@ header nav a:hover{
     color:white;
 }
 .hero .bgImg{
-    filter:grayscale(75%);
-    opacity:.6;
+    filter:grayscale(65%);
+    opacity:.7;
     position: absolute;
     top:0;
     left:0;
@@ -188,24 +191,16 @@ animation: 5s slidefade 1s forwards;
     /* flex: 1; */
 }
 footer{
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    background-color: #607d8b;
+    background-color: #0E5DA0;
     color: #fff;
     padding:20px 0;
 }
-footer ul{
-    display:flex;
-}
-footer ul li{
-    margin-left: 16px;
-}
 footer p{
+    max-width:98vw;
     text-transform: uppercase;
     font-size: 85%;
     opacity: .75.6;
-    align-self:center;
+    text-align:right;
 }
 @media(max-width:1100px){
     .destinations .grid li.small, 
@@ -215,16 +210,6 @@ footer p{
     }
     .contact form input{
         flex-basis: 100%;
-    }
-    footer{
-        flex-direction:column;
-    }
-    footer p{
-        text-align: center;
-        margin-bottom:20px;
-    }
-    footer ul li{
-        margin: 0 8px;
     }
 }
 @media (max-width:800px){
