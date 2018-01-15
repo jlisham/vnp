@@ -117,11 +117,11 @@ header nav a:hover{
     background-size: cover;
     z-index: -1;
     background-repeat: no-repeat;
-    background: red;
+    background: darkred;
 }
 .hero h1{
     width:600px;
-    color:red;
+    color:darkred;
     font:bold 300% "Open Sans", sans-serif;
     margin-bottom: 15px;
 }
