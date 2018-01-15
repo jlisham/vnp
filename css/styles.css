@@ -124,6 +124,7 @@ header nav a:hover{
     color:darkred;
     font:bold 300% "Open Sans", sans-serif;
     margin-bottom: 15px;
+    text-shadow: 1px 2px brown;
 }
 .hero h2{
     font:normal 200% "Open Sans", sans-serif;
