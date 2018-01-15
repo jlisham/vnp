@@ -93,6 +93,7 @@ header nav a:first-child{
     flex:7 70%
 }
 header nav a{
+    font:800 85% "Open Sans", sans-serif;
     color:#0E5DA0;
     opacity:.8
 }
@@ -131,7 +132,8 @@ header nav a:hover{
     margin-bottom: 40px;
 }
 .hero a.btn{
-    padding: 20px 46px;
+    margin-top:5px;
+    padding: 15px 36px;
 }
 .hero-content{
 opacity:0;
