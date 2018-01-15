@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -70,9 +71,16 @@
             <label for='phone'>phone</label>
             <input type='phone' id='phone' name='phone' required placeholder='valid phone number' >
         </div>
-        <button type="submit">Contact Us</button>
-        <a href='/profile/view'>cancel</a>
+        <div>
+        <label for="memo">Question/Comment</label>
+        <textarea name='memo' id='memo' rows="6"></textarea>
+      </div>
+        <button type="submit" class='btn'>Contact Us</button> or just 
+        <a href='#' class='btn'>Donate</a>
         </form>
       </section>
-</body>
+</body>  
+<script>
+			CKEDITOR.replace( 'memo' );
+		</script>					
 </html>
