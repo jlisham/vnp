@@ -31,7 +31,7 @@ section{
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 80px;
+  padding: 50px 80px;
 }
 .grid{
     width:100%;
@@ -158,16 +158,18 @@ animation: 5s slidefade 1s forwards;
 }
 .event .grid li.large{
     flex-basis: 70%;
+}.about p{
+    text-align: justify;
 }
-.goal .grid li{
+.about .grid li{
     padding: 50px;
     flex-basis: 50%;
     text-align: center;
 }
-.goal .grid li i{
+.about .grid li i{
     color:#8c9eff;
 }
-.goal .grid li h4{
+.about .grid li h4{
     font-size:200%;
     margin: 25px 0;
 }
