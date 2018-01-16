@@ -207,15 +207,13 @@ footer p{
         flex-basis: 50%;
         margin: 0 0 20px 0;
     }
-    .contact form input{
-        flex-basis: 100%;
-    }
 }
 @media (max-width:800px){
-   .btn{
-    text-size:65%;
-    padding: 9px 21px;
+    a.btn, .btn{
+    font-size:55%;
+    padding: 5px 10px;
     font-weight: 500;
+    margin-bottom:10px;
    }
     section {
        padding: 50px 20px;
