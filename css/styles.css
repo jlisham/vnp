@@ -30,7 +30,7 @@ a.btn, .btn{
     background: #0E5DA0;
     opacity: .75;
 }
-a:hover, a.btn:hover, .btn:hover{
+a:hover, .btn:hover{
     opacity: 1;
 }
 section{
