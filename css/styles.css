@@ -99,7 +99,7 @@ header nav a{
 header nav a:first-child{
     flex:7 70%
 }
-header nav a{][]
+header nav a{
     font:800 85% "Open Sans", sans-serif;
     color:#0E5DA0;
     opacity:.8
@@ -192,7 +192,7 @@ animation: 5s slidefade 1s forwards;
 footer{
     background-color: #0E5DA0;
     color: #fff;
-    padding:20px 0;
+    padding:20px;
 }
 footer p{
     max-width:98vw;
