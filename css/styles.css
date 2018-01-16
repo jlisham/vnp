@@ -246,7 +246,7 @@ footer p{
         font-size:85%;
     }
     .contact form div input{
-        align-self:center;
+        align-self: stretch;
     } .contact form div label{
         text-align: center;
     }
