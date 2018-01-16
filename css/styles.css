@@ -20,7 +20,7 @@ a{
     color:white;
 }
 a.btn, .btn{
-    text-size:85%;
+    font-size:85%;
     color:white;
     padding: 18px 42px;
     border-radius:4px;
@@ -209,9 +209,9 @@ footer p{
     }
 }
 @media (max-width:800px){
-    a.btn, .btn{
-    font-size:55%;
-    padding: 5px 10px;
+    .contact form a.btn, .btn{
+    font-size:65%;
+    padding: 10px 20px;
     font-weight: 500;
     margin-bottom:10px;
    }
