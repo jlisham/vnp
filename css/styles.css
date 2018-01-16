@@ -85,7 +85,7 @@ header{
    } 
 } 
 header nav {
-    width:98vw;
+    width:95vw;
     position:relative;
     display: flex;
     margin-right:-15px;
@@ -129,7 +129,7 @@ header nav a:hover{
 .hero h1{
     width:600px;
     color:darkred;
-    font:bold 300% "Open Sans", sans-serif;
+    font:900 300% "Open Sans", sans-serif;
     margin-bottom: 15px;
     text-shadow: 1px 2px brown;
 }
@@ -228,12 +228,9 @@ footer p{
       min-height:600px; 
    } 
    .hero h1{
-       width:300px;
-       font-size: 150%;
+       width:350px;
+       font-size: 175%;
    }
-   .hero h3{
-       font-size:150%;
-   } 
    .event .grid li.small, 
    .event .grid li.large{
        flex-basis: 100%;}
