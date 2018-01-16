@@ -179,8 +179,6 @@ animation: 5s slidefade 1s forwards;
 .contact form{
     width: 60vw;
 }.contact form div label{
-    width:150px;
-    display:inline-block;
     text-align: right;
 }
 .contact form div input{
