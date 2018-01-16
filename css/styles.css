@@ -20,6 +20,7 @@ a{
     color:white;
 }
 a.btn, .btn{
+    margin-top:10px;
     font-size:85%;
     color:white;
     padding: 18px 42px;
