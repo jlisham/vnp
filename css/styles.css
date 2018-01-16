@@ -245,7 +245,7 @@ footer p{
     .testimonials .author{
         font-size:85%;
     }
-    .contact form div label{
+    .contact form div input, .contact form div label{
         text-align: center;
     }
 }
